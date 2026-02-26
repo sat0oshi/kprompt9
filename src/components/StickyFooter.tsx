@@ -16,7 +16,7 @@ const StickyFooter = () => {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex flex-col sm:flex-row items-center gap-2">
             <a href="https://www.sat0oshi.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground text-center sm:text-left hover:text-foreground transition-colors">
-              ​Créé par KARIM     
+              ​Créé par KARIM & Laura ❤️    
             </a>
             
           </div>
