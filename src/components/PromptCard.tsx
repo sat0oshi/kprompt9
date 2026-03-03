@@ -50,7 +50,7 @@ const PromptCard = ({ prompt, onClick, index }: PromptCardProps) => {
             src={previewUrl}
             muted
             loop
-            preload="metadata"
+            preload="none"
             playsInline
             className={`max-w-full max-h-full w-auto h-auto object-contain transition-all duration-500 group-hover:scale-105 ${
               prompt.is_nsfw && !nsfwRevealed ? "blur-xl" : ""
@@ -60,6 +60,7 @@ const PromptCard = ({ prompt, onClick, index }: PromptCardProps) => {
           <img
             src={previewUrl}
             alt={prompt.title}
+            loading="lazy"
             className={`max-w-full max-h-full w-auto h-auto object-contain transition-all duration-500 group-hover:scale-105 ${
               prompt.is_nsfw && !nsfwRevealed ? "blur-xl" : ""
             }`}
